@@ -269,25 +269,7 @@ const EmptyState = ({ onSelectPrompt }: EmptyStateProps) => {
             </div>
           </div>
 
-          {/* System Status Dashboard Metadata */}
-          <div className="mt-6 grid grid-cols-2 gap-2 text-left font-mono text-[10px] text-slate-500 dark:text-zinc-400 bg-slate-50/50 dark:bg-zinc-900/30 p-3 rounded-xl border border-slate-200/60 dark:border-zinc-800/60 w-full max-w-2xl shadow-sm">
-            <div className="flex items-center gap-1.5">
-              <span className="inline-block size-1.5 rounded-full bg-teal-600 animate-pulse"></span>
-              <span>PROVIDER: <span className="font-semibold text-slate-700 dark:text-zinc-300">GEMINI-2.5-FLASH</span></span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <span className="inline-block size-1.5 rounded-full bg-teal-600"></span>
-              <span>DB ENGINE: <span className="font-semibold text-slate-700 dark:text-zinc-300">FDA-NDC / ICD-10 v2.6</span></span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <span className="inline-block size-1.5 rounded-full bg-teal-600"></span>
-              <span>SSL SECURE: <span className="font-semibold text-slate-700 dark:text-zinc-300">AES-256-GCM / TLS 1.3</span></span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <span className="inline-block size-1.5 rounded-full bg-teal-600"></span>
-              <span>USER ACCESS: <span className="font-semibold text-slate-700 dark:text-zinc-300">AUTHENTICATED CLINICIAN</span></span>
-            </div>
-          </div>
+
 
           {/* Suggested Prompt Panels with Professional Layout */}
           <div className="mt-6 grid w-full grid-cols-1 gap-4 sm:grid-cols-2">
